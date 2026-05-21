@@ -1,0 +1,111 @@
+ {
+  "theme": "light",
+  "archetype": "1 (Organic & Earthy)",
+ "vibe": "Premium, professional, trustworthy, editorial D2C cosmetics brand style",
+ "target_audience": "Brand owners, B2B buyers looking for high-quality, trusted cosmetic manufacturing.",
+  "colors": {
+   "background": {
+     "primary": "#FAF9F6",
+     "secondary": "#EAE7E0",
+      "tertiary": "#DFDBCF"
+    },
+    "text": {
+      "primary": "#2C302B",
+      "secondary": "#5C605A",
+      "accent": "#8A7361"
+    },
+    "brand": {
+      "primary": "#A67B5B", 
+      "primary_hover": "#8B664B",
+      "secondary": "#3E4A3D",
+      "accent": "#D4A373"
+    },
+    "surface": {
+     "card": "#FFFFFF",
+      "border": "#E5E3D8"
+    }
+  },
+  "typography": {
+    "fonts": {
+      "heading": "Cormorant Garamond",
+      "body": "Outfit",
+     "mono": "Space Mono"
+    },
+    "scales": {
+      "h1": "text-5xl sm:text-6xl tracking-tight leading-none font-medium",
+      "h2": "text-4xl sm:text-5xl tracking-tight leading-none font-medium",
+      "h3": "text-2xl sm:text-3xl tracking-tight leading-snug font-normal",
+      "h4": "text-xl sm:text-2xl tracking-tight leading-snug font-normal",
+      "body": "text-base leading-relaxed",
+      "overline": "text-xs tracking-[0.2em] uppercase font-medium text-stone-500"
+    }
+ },
+  "spacing": {
+    "section_padding": "py-24 sm:py-32",
+    "container": "max-w-7xl mx-auto px-6 lg:px-8",
+    "gap_large": "gap-16 sm:gap-24",
+    "gap_medium": "gap-8 sm:gap-12",
+    "gap_small": "gap-4 sm:gap-6"
+  },
+  "layout": {
+    "hero": "Asymmetric split layout. Left side heavily text-focused with generous negative space. Right side features an immersive, soft-edged image of premium manufacturing facility with a slight parallax effect.",
+    "product_grid": "Grid of 2-4 columns (mobile-first). Square image aspect ratios (aspect-square). Cardless design - images sit directly on the background with text cleanly aligned underneath. Minimalist hover states.",
+    "about_section": "Editorial magazine layout. Text wrapped around large, high-quality images. Utilizing the Tetris grid mode for asymmetrical visual tension.",
+    "certifications": "Subtle marquee or horizontal scrolling list of minimal, monochrome certification badges. Opacity 50% to not distract, but visible for trust."
+  },
+  "components": {
+    "buttons": "Flat, sharp corners or very subtle rounding (rounded-sm). Primary: bg-[#A67B5B] text-white hover:bg-[#8B664B]. Secondary: bg-transparent border border-[#A67B5B] text-[#A67B5B]. Use data-testid on all buttons.",
+    "cards": "Avoid Shadcn default cards. Use bare semantic HTML tags with subtle borders (border-[#E5E3D8]) and zero shadow, allowing the background to flow through.",
+    "navigation": "Sticky, glassmorphism header (backdrop-blur-xl bg-[#FAF9F6]/80). Border bottom 1px solid #E5E3D8. Minimalist links, primary CTA. Mobile menu should be full screen.",
+    "filters": "Horizontal scrollable pill-shaped buttons or clean inline text links with active state underlined. Avoid heavy dropdowns for category selection to keep it D2C style.",
+    "forms": "Minimalist borders. Floating labels or simple clean top labels. Input fields with border-b only (material-style) or very subtle all-around borders with no background."
+  },
+  "motion": {
+    "transitions": "transition-all duration-500 ease-out",
+    "hover_image": "scale-105 transition-transform duration-700",
+    "reveal": "Fade in and slight upward translate on scroll for text blocks and images."
+  },
+  "media": {
+    "images": [
+     {
+        "category": "hero_primary",
+        "url": "https://static.prod-images.emergentagent.com/jobs/b13f754c-4274-44ab-b398-abb303cbfade/images/e8ce0d62cd97b5ce42ee064e9e33eb9af46a9a6d14509f48155002ed1131473c.png",
+        "description": "Luxurious organic skincare products on a natural stone pedestal. Use for the main hero or premium intro."
+      },
+      {
+        "category": "hero_secondary_facility",
+        "url": "https://static.prod-images.emergentagent.com/jobs/b13f754c-4274-44ab-b398-abb303cbfade/images/69aed93594f67c23648002f8666c87943c3295f0062861d56576492f71d92175.png",
+        "description": "Clean, modern cosmetic manufacturing facility. Use for 'About Us' or manufacturing capabilities section."
+      },
+      {
+        "category": "background_texture",
+        "url": "https://static.prod-images.emergentagent.com/jobs/b13f754c-4274-44ab-b398-abb303cbfade/images/f6027cceb05ea9f1e87b62af5f6f0f32f4050a77a5a79d64fa1960ee33486477.png",
+        "description": "Organic clay texture. Use as a background pattern for specific sections to break up solid colors."
+      },
+      {
+        "category": "product_placeholder_1",
+        "url": "https://images.unsplash.com/photo-1739980296455-3f8d6051ca20?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2OTF8MHwxfHNlYXJjaHwzfHxwcmVtaXVtJTIwc2tpbmNhcmUlMjBjb3NtZXRpY3N8ZW58MHx8fHwxNzc4MzEwNjI3fDA&ixlib=rb-4.1.0&q=85",
+        "description": "Premium cosmetic bottles placeholder."
+      },
+      {
+        "category": "product_placeholder_2",
+        "url": "https://images.unsplash.com/photo-1527632911563-ee5b6d53465b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2OTF8MHwxfHNlYXJjaHwxfHxwcmVtaXVtJTIwc2tpbmNhcmUlMjBjb3NtZXRpY3N8ZW58MHx8fHwxNzc4MzEwNjI3fDA&ixlib=rb-4.1.0&q=85",
+        "description": "Luxury skincare packaging placeholder."
+      }
+    ],
+    "icons_library": "@phosphor-icons/react",
+    "icons_instruction": "Use Duotone or Light weights for a delicate, premium feel."
+  },
+  "instructions_to_main_agent": [
+    "Install required dependencies: `yarn add @phosphor-icons/react framer-motion lenis`",
+    "Ensure `Cormorant Garamond` and `Outfit` fonts are imported via Google Fonts in index.css.",
+    "Implement Lenis smooth scrolling globally.",
+    "Build the UI without Shadcn 'Card' components—use semantic HTML and Tailwind directly for layouts to keep it editorial.",
+    "For the product catalog, use a category filter (Face Care, Hair Care, etc.). Display products as 500x500 square images. Do not wrap them in bulky cards; keep the design cardless.",
+    "Create a 'Certifications' horizontal scrolling marquee strip utilizing simple HTML/CSS or framer-motion. Include texts/icons for ISO, GMP, FDA.",
+    "Include an 'About Us' section with stats: Established 1998, 1.5-5 Cr turnover, 250+ products, Sulphate/Paraben-free.",
+    "Add a floating WhatsApp CTA icon fixed to the bottom right of the screen.",
+    "Ensure all buttons and actionable elements have a `data-testid` attribute (e.g., `data-testid=\"quote-submit-button\"`).",
+    "Maintain strict accessibility standards with contrast ratios."
+  ]
+ }
