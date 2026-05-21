@@ -236,7 +236,7 @@ export const company = {
   address: "C-27, AKS Udyog Vihar, Village - Kabulpur, P.O. Tigaon Greater, Faridabad, Haryana 121101",
   mapsUrl: "https://maps.app.goo.gl/S5T3F58a262jMC7X7",
   phone: "+91 9220721655",
-  email: "info@mpbusinesscombine.com",
+  email: "mpbusinesscombine@gmail.com",
   whatsapp: "919220721655",
   productCount: "250+",
   about:
